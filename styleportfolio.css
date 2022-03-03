@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(139, 217, 248);
+    margin: 0;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    height: 40px;
+    width: 100%;
+}
+.navbar li{
+    float: left;
+}
+a:hover{
+    color:yellow;
+    background-color: blueviolet;
+}
+a{
+    display: block;
+    padding: 0 35px;
+    color: white;
+    text-decoration: none;
+    line-height:40px;
+    transition: all 0 ease-in-out 0.01s;
+}
+
+
+/* intro*/
+.intro{
+    margin-left: 12%;
+    margin-top: 24%;
+    margin-bottom: 25%;
+}
+.intro span{
+    font-size: 2em;
+    font-family: "Playball";
+    color:
+    rgb(118, 8, 245);
+    transition: color 0.4s ease-in 0.1s;
+    -webkit-text-stroke: 1px rgb(9, 13, 250);
+    
+}
+.intro span:hover{
+    color: rgb(248, 248, 116);
+}
+.intro p{
+    line-height: 20px;
+    font-weight:590;
+    font-size: 20px;
+    font-family: "Marcellus SC";
+}
+.mypic{
+    width:25%;
+    height: 60%;
+    position:absolute;
+    bottom: 0;
+    right: 2%;
+    top: 28%;
+}
+
+.edu{
+    margin: 10% 1% 10% 1%;
+    font-family: "Marcellus SC";
+    color:rgb(244, 247, 248);
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847__340.jpg);
+}
+.school, .college{
+    width:40%;
+    height: 200px;
+    margin: 0 2% 2% 5%;
+}
+.eduins{
+    float:right;
+    margin: 100px 20px 0 100px;
+}
+.edu ul{
+    list-style: none;
+}
+.edu li{
+    float: left;
+    font-size: 24px;
+    font-family:"Playball";
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847__340.jpg);
+}
+
+/*skills*/
+.skill{
+    background-color: rgb(81 241 197 / 52%);
+    margin-top: 8%;
+    margin-left: 1.5%;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    padding: 5% 1%;
+}
+.skill h2{
+    font-size: 3em;
+    font-family: "Cedarville Cursive";
+}
+.skill ul{
+    list-style: none;
+    padding: 0;
+    font-family: "Marcellus SC";
+}
+.skill .h4{
+    font-size: 40px;
+}
+.skill .bar{
+    /*display:flex;*/
+    border: 0.1px solid black;
+    border-radius: 4px;
+    background-color:rgb(211 231 247);
+    height: 15px;
+    margin-bottom: 10px;
+}
+.skill .bar::before{
+    content: "";
+    background-color:rgb(14, 240, 44);
+    border-radius: 4px;
+    height: 15px;
+    position: absolute;
+}
+.skill .html::before{
+    width: 61%;
+}
+.skill .css::before{
+    width: 45%;
+}
+.skill .py::before{
+    width: 60%;
+}
+.skill .c::before{
+    width: 58%;
+}
+
+
+.myprojects{
+    margin:8% 10%;
+    padding: 1.5% 1%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 255, 0.281);
+    background-color: rgba(43, 122, 226, 0.308);
+    font-family: "Marcellus SC";
+}
+.myprojects ul{
+    list-style: none;
+    padding-left: 0;
+
+}
+.myprojects ul a:hover{
+    color:rgb(25, 236, 201);
+    background-color:royalblue;
+}
+
+
+
+.contact{
+    background-color:rgba(147, 203, 253, 0.801);
+    border: 2px solid black;
+    margin:10% 20%;
+    padding: 2% 15%;
+    box-shadow: 0 0 6px 0.5px ;
+    transition: color 1s ease-in-out 0.5s;
+}
+.contact h2{
+    text-align: center;
+    size: 100x;
+
+}
+.contact form{
+    display: block;
+    font-family: "Marcellus SC";
+
+}
+.contact:hover{
+    color:rgb(39, 6, 185);
+}
+.contact .submit{
+    height: 30px;
+    width: 80px;
+    font-family: "Marcellus SC";
+    border-radius: 10px;
+    transition: width 1s ease-in-out 0.5s;
+}
+.contact .submit:hover{
+    background-color:rgba(55, 255, 15, 0.952);
+    border: 2px solid black;
+    width: 85px;
+}
