@@ -1,0 +1,29 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+p{
+    font-size: 50px;
+    color: rgb(37, 57, 238);
+    text-align: center;
+    text-decoration: bold; 
+}
+#tic{
+    color:black;
+    background-color: #d0c1f6;
+    border: 0.5px red solid;
+    margin: auto;
+    
+}
+td{
+    width: 150px;
+    height: 150px;
+}
+.ver{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+.mid{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
